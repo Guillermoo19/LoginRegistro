@@ -1,0 +1,96 @@
+﻿/* Estilo para el fondo de la página */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #000000; /* Fondo negro */
+}
+
+/* Estilo para la tarjeta de usuario */
+.user_card {
+    height: 400px;
+    width: 350px;
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    border: 2px solid #ffffff; /* Bordes blancos brillantes */
+}
+
+/* Estilo para el contenedor del logo */
+.brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px;
+    border-radius: 50%;
+    background: #000000; /* Fondo negro para el logo */
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #ffffff; /* Bordes blancos brillantes */
+}
+
+/* Estilo para el logo */
+.brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* Estilo para el contenedor del formulario */
+.form_container {
+    margin-top: 100px;
+}
+
+/* Estilo para el botón de login */
+.login_btn {
+    width: 100%;
+    background: #00ff00 !important; /* Botón verde neón */
+    color: white !important;
+}
+
+    .login_btn:focus {
+        box-shadow: none !important;
+        outline: 0px !important;
+    }
+
+/* Estilo para el contenedor del botón de login */
+.login_container {
+    padding: 0 2rem;
+}
+
+/* Estilo para el texto de los campos de entrada */
+.input-group-text {
+    background: #00ff00 !important; /* Fondo verde neón para los íconos */
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.input_user,
+.input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+/* Estilo para el mensaje de registro */
+.register_message {
+    color: #0000ff; /* Color azul */
+    font-size: 0.875rem; /* Tamaño de fuente para el mensaje */
+    margin-top: 1rem; /* Espacio superior para el mensaje */
+    margin-left: 1rem; /* Espacio a la izquierda para separar del botón */
+}
+
+/* Estilo para el mensaje de error */
+.alert-sm {
+    font-size: 0.875rem;
+    margin-top: 1rem;
+}

@@ -1,0 +1,102 @@
+﻿/* Estilo para el fondo de la página de registro */
+body.registrar-page,
+html.registrar-page {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #1e1e1e !important; /* Color de fondo negro gris para la página de registro */
+}
+
+/* Estilo general para otras páginas */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background: #b0d4e3 !important; /* Color de fondo de la página para otras vistas */
+}
+
+.user_card {
+    height: auto;
+    width: 100%;
+    max-width: 450px; /* Ancho máximo del contenedor de usuario */
+    margin: auto; /* Centra el contenedor horizontalmente */
+    background: #ffffff; /* Fondo blanco del contenedor */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Sombra para el contenedor */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.brand_logo_container {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    top: -75px; /* Posiciona el logo hacia arriba del contenedor */
+    border-radius: 50%; /* Hace el logo circular */
+    background: #b0d4e3; /* Fondo del contenedor del logo */
+    padding: 10px;
+    text-align: center;
+}
+
+.brand_logo {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%; /* Hace el logo circular */
+    border: 2px solid white; /* Borde blanco alrededor del logo */
+}
+
+.form_container {
+    margin-top: 50px; /* Espacio superior para el formulario */
+}
+
+.login_btn {
+    width: 100%;
+    background: #7f8c8d !important; /* Color de fondo del botón */
+    color: white !important; /* Color del texto del botón */
+}
+
+    .login_btn:focus {
+        box-shadow: none !important;
+        outline: 0px !important; /* Elimina el borde de enfoque en el botón */
+    }
+
+.login_container {
+    padding: 0 2rem; /* Espacio interno a los lados del contenedor del botón */
+}
+
+.input-group-text {
+    background: #7f8c8d !important; /* Color de fondo del ícono del grupo de entrada */
+    color: white !important; /* Color del texto del ícono */
+    border: 0 !important; /* Elimina el borde del ícono */
+    border-radius: 0.25rem 0 0 0.25rem !important; /* Bordes redondeados del ícono */
+}
+
+.input_user,
+.input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important; /* Elimina el borde de enfoque en los campos de entrada */
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #7f8c8d !important; /* Color de fondo para la casilla de verificación seleccionada */
+}
+
+.alert-danger {
+    font-size: 0.875rem; /* Tamaño de fuente para mensajes de error */
+}
+
+.text-danger {
+    font-size: 0.75rem; /* Tamaño de fuente para mensajes de error en los campos de entrada */
+}
+
+/* Estilo para el mensaje al lado del botón de registrarse */
+.register_message {
+    color: #0000ff; /* Color azul */
+    font-size: 0.875rem; /* Tamaño de fuente para el mensaje */
+    margin-top: 1rem; /* Espacio superior para el mensaje */
+    margin-left: 1rem; /* Espacio a la izquierda para separar del botón */
+}
